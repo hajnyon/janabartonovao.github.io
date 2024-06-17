@@ -3,13 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 #container {
-    width: 1200px;    
+    width: 1200px;
     margin: 0px auto;
     background-color: rgb(229, 178, 153);
     margin-bottom: 100px;
 
 }
+
 header {
     background: rgb(206, 138, 83);
     text-align: center;
@@ -28,20 +30,9 @@ main p {
     background: rgb(233, 116, 52);
     margin-bottom: 9px;
     margin-top: 9px;
-    }
-
-#foto {
-    margin: 0px auto;
-    margin-bottom: 100px;
 }
 
-#foto img {
-    display: block;
-    width: 250px;
-    border: 2px solid rgb(206, 138, 83);
-    margin: 0px auto;
-    margin-bottom: 50px;
-}
+
 
 nav {
     background: rgb(206, 138, 83);
@@ -54,7 +45,7 @@ nav ul {
 }
 
 nav ul li {
-    width: 300px;
+    width: 900px;
     list-style-type: none;
     float: left;
     text-align: center;
