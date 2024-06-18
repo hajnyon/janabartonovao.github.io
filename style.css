@@ -25,9 +25,10 @@ main h2 {
 }
 
 main p {
-    background: rgb(233, 116, 52);
-    margin-bottom: 9px;
-    margin-top: 9px;
+    background: rgb(229, 178, 153);
+    margin-bottom: 50px;
+    margin-top: 0px;
+    text-align: center;
     }
 
 #foto {
