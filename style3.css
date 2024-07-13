@@ -3,11 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 #container {
     width: 1200px;
@@ -15,85 +10,11 @@
     background-color: rgb(229, 178, 153);
     margin-bottom: 100px;
 
-}
-
-header {
-    background: rgb(206, 138, 83);
-    text-align: center;
-    margin-top: 0px;
-}
-
-main h2 {
-    text-align: center;
-    color: rgb(14, 14, 14);
-    font-size: 30px;
-    margin-bottom: 100px;
-    margin-top: 100px;
-}
-
-main p {
-    background: rgb(229, 178, 153);
-    margin-bottom: 50px;
-    margin-top: 0px;
-    text-align: center;
-}
-
-#foto {
-    margin: 0px auto;
-    margin-bottom: 100px;
-}
-
-#foto img {
-    display: block;
-    width: 250px;
-    border: 2px solid rgb(206, 138, 83);
-    margin: 0px auto;
-    margin-bottom: 50px;
-}
-
-nav {
-    background: rgb(206, 138, 83);
-
-}
-
-nav ul {
-    width: 2000px;
-    margin: 0px auto;
-}
-
-nav ul li {
-    width: 300px;
-    list-style-type: none;
-    float: left;
-    text-align: center;
-    line-height: 50px;
-    font-size: 20px;
-}
-
-nav ul li a:hover {
-    border-bottom: 2px solid brown;
 
 }
 
 
-nav ul li a {
-    color: black;
-    text-decoration: none;
-}
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-}
-#container {
-    width: 1200px;    
-    margin: 0px auto;
-    background-color: rgb(229, 178, 153);
-    margin-bottom: 100px;
-
-}
 header {
     background: rgb(206, 138, 83);
     text-align: center;
@@ -116,13 +37,21 @@ main h3 {
     margin-top: 0px;
 }
 
+main h5 {
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
 
 main p {
     background: rgb(229, 178, 153);
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     margin-top: 0px;
     text-align: center;
-    }
+}
 
 #foto {
     display: block;
@@ -139,6 +68,38 @@ main p {
     margin-bottom: 50px;
 }
 
+#foto2 img {
+    display: block;
+    width: 250px;
+    border: 2px solid rgb(206, 138, 83);
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+#foto3 img {
+    display: block;
+    width: 250px;
+    border: 2px solid rgb(206, 138, 83);
+    margin: 0px auto;
+    margin-bottom: 500px;
+}
+
+#foto2 img {
+    display: block;
+    width: 400px;
+    border: 2px solid rgb(206, 138, 83);
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+#foto3 img {
+    display: block;
+    width: 800px;
+    border: 2px solid rgb(206, 138, 83);
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
 
 nav {
     background: rgb(206, 138, 83);
@@ -146,12 +107,12 @@ nav {
 }
 
 nav ul {
-    width: 2000px;
+
     margin: 0px auto;
 }
 
 nav ul li {
-    width: 300px;
+    width: 100%;
     list-style-type: none;
     float: left;
     text-align: center;
