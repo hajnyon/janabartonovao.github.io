@@ -53,6 +53,15 @@ main p {
     text-align: center;
 }
 
+#blog {
+    display: block;
+    text-align: center;
+    width: 250px;
+    border: 2px solid rgb(206, 138, 83);
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
 #foto {
     display: block;
     margin: 0px auto;
