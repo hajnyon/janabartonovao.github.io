@@ -1,3 +1,5 @@
+
+
 import matplotlib.pyplot as mat
 
 labels = ["Řemeslníci a kvalifikovaní pracovníci stavební výroby", "Malíři a příbuzní pracovníci, pracovníci povrchového čištění budov", "Montážní dělníci výrobků a zařízení", "Obsluha pojízdných zařízení", "Kuchaři (kromě šéfkuchařů), pomocní kuchaři", "Číšníci, servírky, barmani a příbuzní pracovníci", "Analytici a vývojáři softwaru a PC aplikací", "Mistři a příbuzní pracovníci v oblasti těžby, výroby a stavebnictví", "Technici ve fyzikálních a průmyslových oborech", "Specialisté ve výrobě, stavebnictví a příbuzných oborech"]
