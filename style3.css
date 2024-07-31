@@ -5,7 +5,7 @@
 }
 
 #container {
-    width: 1200px;
+    width: 100 %;
     margin: 0px auto;
     background-color: rgb(229, 178, 153);
     margin-bottom: 100px;
@@ -13,7 +13,14 @@
 
 }
 
-
+#delsi_text {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+}
+@media (width <=1250px) {
+    width: 500px;
+}
 
 header {
     background: rgb(206, 138, 83);
@@ -50,8 +57,11 @@ main p {
     background: rgb(229, 178, 153);
     margin-bottom: 90px;
     margin-top: 0px;
+    margin-left: 80px;
+    margin-right:80px;
     text-align: center;
 }
+
 
 #blog {
     display: block;
@@ -77,9 +87,11 @@ main p {
     margin-bottom: 50px;
 }
 
+
 #foto2 img {
     display: block;
-    width: 250px;
+    width:100%;
+    max-width: 400px;
     border: 2px solid rgb(206, 138, 83);
     margin: 0px auto;
     margin-bottom: 50px;
@@ -87,23 +99,8 @@ main p {
 
 #foto3 img {
     display: block;
-    width: 250px;
-    border: 2px solid rgb(206, 138, 83);
-    margin: 0px auto;
-    margin-bottom: 500px;
-}
-
-#foto2 img {
-    display: block;
-    width: 400px;
-    border: 2px solid rgb(206, 138, 83);
-    margin: 0px auto;
-    margin-bottom: 50px;
-}
-
-#foto3 img {
-    display: block;
-    width: 800px;
+    width:100%;
+    max-width: 800px;
     border: 2px solid rgb(206, 138, 83);
     margin: 0px auto;
     margin-bottom: 50px;
