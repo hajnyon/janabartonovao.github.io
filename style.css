@@ -6,10 +6,10 @@
 
 #container {
     width: 100%;
-    max-width;
+    max-width: 100%;
     margin: 0px auto;
     background-color: rgb(229, 178, 153);
-    margin-bottom: 0%;
+    margin-bottom: 100px;
 
 }
 
@@ -39,6 +39,8 @@ main p {
 }
 
 #foto {
+    display:block;
+    position: relative;
     margin: 0px auto;
     margin-bottom: 100px;
 }
