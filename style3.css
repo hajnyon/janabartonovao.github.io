@@ -4,22 +4,27 @@
     box-sizing: border-box;
 }
 
-#container {
+#container { 
     width: 100 %;
     margin: 0px auto;
     background-color: rgb(229, 178, 153);
-    margin-bottom: 100px;
+    margin-bottom: 0%;
 
 
 }
 
 #delsi_text {
-    margin-left: 80px;
-    margin-right: 80px;
+    background: rgb(229, 178, 153);
+    margin-bottom: 90px;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: justify;
 }
-@media (width <=1250px) {
+@media (max-width: 1250px) {
+    #delsi_text {
     width: 500px;
+}
 }
 
 header {
@@ -32,7 +37,7 @@ main h2 {
     text-align: center;
     color: rgb(14, 14, 14);
     font-size: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 9%;
     margin-top: 100px;
 }
 
@@ -40,7 +45,7 @@ main h3 {
     text-align: center;
     color: rgb(14, 14, 14);
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 9%;
     margin-top: 0px;
 }
 
@@ -48,7 +53,7 @@ main h5 {
     text-align: center;
     color: rgb(14, 14, 14);
     font-size: 15px;
-    margin-bottom: 0;
+    margin-bottom: 10%;
     margin-top: 0px;
 }
 
@@ -67,7 +72,7 @@ main p {
     display: block;
     text-align: center;
     width: 250px;
-    border: 2px solid rgb(206, 138, 83);
+    border: none;
     margin: 0px auto;
     margin-bottom: 50px;
 }
@@ -75,7 +80,7 @@ main p {
 #foto {
     display: block;
     margin: 0px auto;
-    postition: relative;
+    position: relative;
     margin-bottom: 100px;
 }
 
@@ -141,4 +146,12 @@ nav ul li a {
     content: "";
     display: table;
     clear: both;
+}
+
+ul:focus,
+ul:active,
+a:focus,
+a:active {
+    outline: none;
+    border: none;
 }
