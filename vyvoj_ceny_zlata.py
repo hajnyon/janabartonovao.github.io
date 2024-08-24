@@ -12,6 +12,8 @@ ax.xaxis.set_major_locator(ticker.MaxNLocator(integer=True))
 mat.title("Graf vývoje ceny 1 OZ zlata v Kč", fontweight="bold")
 mat.xlabel("V roce", fontweight="bold")
 mat.ylabel("Kč", fontweight="bold")
+
+
 mat.show()
 
 
