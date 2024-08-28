@@ -55,7 +55,9 @@ main p {
 }
 
 nav {
-    background: rgb(206, 138, 83);
+    background: rgb(206,
+        138,
+        83);
 
 }
 
