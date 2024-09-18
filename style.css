@@ -92,3 +92,9 @@ nav ul li a {
     clear: both;
 }
 
+
+.wrapper {
+    min-height: 6%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
