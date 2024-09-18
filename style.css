@@ -11,7 +11,6 @@
     background-color: rgb(229, 178, 153);
     margin-bottom: 0px;
     margin-top: 0px;
-
 }
 
 @media (width <=1250px) {
@@ -40,7 +39,7 @@ main p {
 }
 
 #foto {
-    display:block;
+    display: block;
     position: relative;
     margin: 0px auto;
     margin-bottom: 100px;
@@ -55,14 +54,15 @@ main p {
 }
 
 nav {
+    background: rgb(206, 138, 83);
     background: rgb(206,
-        138,
-        83);
+            138,
+            83);
 
 }
 
 nav ul {
-    width:100%;
+    width: 100%;
     max-width: 2000px;
     margin: 0px auto;
 }
@@ -81,7 +81,6 @@ nav ul li a:hover {
     border-bottom: 2px solid brown;
 }
 
-
 nav ul li a {
     color: black;
     text-decoration: none;
@@ -91,30 +90,5 @@ nav ul li a {
     content: "";
     display: table;
     clear: both;
-}
-
-html,
-body {
-    box-sizing: border-box;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.wrapper {
-    box-sizing: border-box;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.page-header,
-.page-footer {
-    flex-grow: 0;
-    flex-shrink: 0;
-}
-
-.page-body {
-    flex-grow: 1;
 }
 
