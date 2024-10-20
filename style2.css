@@ -4,18 +4,12 @@
     box-sizing: border-box;
 }
 
-#container { 
+#container {
     width: 100 %;
     margin: 0px auto;
     background-color: rgb(229, 178, 153);
     margin-bottom: 0px;
 
-}
-
-#blok p {
-    text-align: justify;
-    width: 90%;
-    
 }
 
 #delsi_text {
@@ -26,10 +20,9 @@
     margin-right: 80px;
     text-align: justify;
 }
+
 @media (max-width: 1250px) {
-    #delsi_text {
-    
-}
+    #delsi_text {}
 }
 
 header {
@@ -65,10 +58,10 @@ main h5 {
 
 main p {
     background: rgb(229, 178, 153);
-    margin-bottom: 90px;
-    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     margin-left: 80px;
-    margin-right:80px;
+    margin-right: 80px;
     text-align: center;
 }
 
@@ -100,7 +93,7 @@ main p {
 
 #foto2 img {
     display: block;
-    width:100%;
+    width: 100%;
     max-width: 400px;
     border: 2px solid rgb(206, 138, 83);
     margin: 0px auto;
@@ -109,7 +102,7 @@ main p {
 
 #foto3 img {
     display: block;
-    width:100%;
+    width: 100%;
     max-width: 800px;
     border: 2px solid rgb(206, 138, 83);
     margin: 0px auto;
